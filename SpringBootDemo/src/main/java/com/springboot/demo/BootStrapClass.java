@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BootStrapClass {
 	public static void main(String[] args) {
-		int k=10;
+		int k=101;
 		SpringApplication.run(BootStrapClass.class, args);
 	}
 }
