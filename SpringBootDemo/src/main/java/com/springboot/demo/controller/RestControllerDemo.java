@@ -17,6 +17,7 @@ public class RestControllerDemo {
 
 	@Autowired
 	private StudentService studentService;
+	int x=12;
 
 	@RequestMapping(value = "/save", method = RequestMethod.POST, consumes = MediaType.APPLICATION_XML, produces = MediaType.APPLICATION_XML)
 
